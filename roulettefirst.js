@@ -38,8 +38,8 @@ class Roulette {
 
     constructor() {
         this.SIZE = 128;
-        this.LENGTH = 65;
-        this.DURATION = 14000;
+        this.LENGTH = 45;
+        this.DURATION = 10000;
 
         this.rouletteMembers = []
         for (var _ of Object.keys(items)) {
